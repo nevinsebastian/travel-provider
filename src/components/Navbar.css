@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .nav-button {
+    background-color: olivegreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .nav-button:hover {
+    background-color: olive;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-right a {
+    margin-left: 10px;
+  }
+  

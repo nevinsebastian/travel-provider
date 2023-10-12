@@ -1,0 +1,7 @@
+/* fonts.css */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
+    /* Include additional src lines for different font formats if available */
+  }
+  
