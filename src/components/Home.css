@@ -1,0 +1,34 @@
+.home-container {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.header h1 {
+  font-size: 28px;
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

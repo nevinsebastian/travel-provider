@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'; 
-
+import Nav from 'react-bootstrap/Nav';
+import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-left">
+    <Nav className="navbar">
+      <Nav.Item className="navbar-left">
         <Link to="/add-activity" className="nav-button">Add Activity</Link>
-      </div>
-      <div className="navbar-right">
+      </Nav.Item>
+      <Nav.Item className="navbar-right">
         <Link to="/logout" className="nav-button">Logout</Link>
-      </div>
-    </nav>
+      </Nav.Item>
+    </Nav>
   );
 }
 
